@@ -4,8 +4,8 @@ import os
 import re
 
 
-def get_existing_results():
-    with open("results.json", "r") as f:
+def get_existing_results(infile="results.json"):
+    with open(infile, "r") as f:
         results = json.load(f)
     return results
 
@@ -45,6 +45,19 @@ def f2(input_str):
     return True
 
 
+def f3(input_str):
+    # The product of the digits is < 120
+    product = 1
+    for letter in input_str:
+        if letter.isdigit():
+            val = int(letter)
+        else:
+            val = ord(letter) - 55
+        product *= val
+
+    return product < 120
+
+
 def main(results):
     start_index = 0
     if len(results) > 0:
@@ -52,7 +65,7 @@ def main(results):
         start_index = last_result['input'] + 1
 
     for i in range(start_index, start_index + 100000):
-        if f1(str(i)) and f2(str(i)):
+        if f1(str(i)) and f2(str(i)) and f3(str(i)):
             try:
                 r = requests.get(
                     'http://www.20000puzzles.com/dynamic/puzzle/pipe/query?input={}'
