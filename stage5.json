@@ -1,73 +1,31 @@
 [
   {
     "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 235, 
+    "input": "235", 
     "result": "failure", 
     "stage": 5
   }, 
   {
     "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 237, 
+    "input": "237", 
     "result": "failure", 
     "stage": 5
   }, 
   {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 253, 
+    "msg": "8 - floor(tan(234)), at position 2 of 6, is negative", 
+    "input": "25B", 
     "result": "failure", 
     "stage": 5
   }, 
   {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 273, 
+    "msg": "8 - floor(tan(300)), at position 2 of 6, is negative", 
+    "input": "7D", 
     "result": "failure", 
     "stage": 5
   }, 
   {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 325, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 327, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 352, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 372, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 523, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 532, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 723, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 732, 
+    "msg": "8 - floor(tan(256)), at position 2 of 3, is negative", 
+    "input": "T", 
     "result": "failure", 
     "stage": 5
   }

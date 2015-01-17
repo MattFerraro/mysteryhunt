@@ -62,9 +62,14 @@ def main():
                             if pipe.f3(cand6):
                                 candidates.append(cand6)
 
-    print candidates
-    print len(candidates)
-    save_file("\n".join(candidates))
+    sorted_cands = []
+    for candidate in candidates:
+        sorted_cands.append("".join(sorted(candidate)))
+
+    deduped = sorted(list(set(sorted_cands)))
+    print "After dedup", len(deduped)
+
+    save_file("\n".join(deduped))
 
 
 def save_file(output_str, outfile="valid_inputs.txt"):

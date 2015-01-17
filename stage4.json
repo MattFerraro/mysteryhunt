@@ -1,727 +1,289 @@
 [
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 3, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 5, 
+    "input": "22", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 22, 
+    "input": "22222", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22223", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'y'", 
+    "input": "22225", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22227", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22233", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2225", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "222D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "223", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'n'", 
-    "input": 27, 
+    "input": "2233", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22333", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2235", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "225", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2255", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22B", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22N", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22T", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "233", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "2333", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2335", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "23J", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "255", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "257", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "27", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "277", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2J", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2N", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "335", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "33B", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "33D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "355", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "357", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'c'", 
+    "input": "3B", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3J", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3N", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3V", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "5", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'e'", 
-    "input": 55, 
+    "input": "55", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'e'", 
-    "input": 57, 
+    "input": "57", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'n'", 
-    "input": 72, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'e'", 
-    "input": 75, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 225, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 255, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 257, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 275, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 277, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 335, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 353, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 355, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 357, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 375, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 525, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 527, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 533, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 535, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 537, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 552, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 553, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 572, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 573, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 725, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 727, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 735, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 752, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 753, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 772, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2225, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2235, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2253, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2255, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2325, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2333, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2335, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2352, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2353, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2523, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2525, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2532, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2533, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2552, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3225, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3235, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3253, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3325, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3352, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3523, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3532, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5225, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'y'", 
-    "input": 22225, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22227, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'y'", 
-    "input": 22252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22272, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22333, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'y'", 
-    "input": 22522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22722, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'y'", 
-    "input": 25222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 27222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
     "msg": "unpaired last letter 'm'", 
-    "input": 32323, 
+    "input": "5D", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 32332, 
+    "input": "5J", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 33222, 
+    "input": "5N", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 33223, 
+    "input": "7B", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 33232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 33322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'y'", 
-    "input": 52222, 
+    "input": "J", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 72222, 
+    "input": "V", 
     "result": "failure", 
     "stage": 4
   }

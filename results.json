@@ -1,1049 +1,545 @@
 [
   {
     "msg": "110, at position 1 of 3, is not prime", 
-    "input": 2, 
+    "input": "2", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 3, 
+    "input": "22", 
     "result": "failure", 
     "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 5, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "18, at position 1 of 4, is not prime", 
-    "input": 7, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unexpected '3' in base-36 representation", 
-    "input": 23, 
-    "result": "failure", 
-    "stage": 7
-  }, 
-  {
-    "msg": "unexpected '8' in base-36 representation", 
-    "input": 25, 
-    "result": "failure", 
-    "stage": 7
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 27, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unexpected '3' in base-36 representation", 
-    "input": 32, 
-    "result": "failure", 
-    "stage": 7
-  }, 
-  {
-    "input": 33, 
-    "result": "success"
-  }, 
-  {
-    "msg": "110, at position 1 of 5, is not prime", 
-    "input": 35, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "18, at position 1 of 4, is not prime", 
-    "input": 37, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unexpected '8' in base-36 representation", 
-    "input": 52, 
-    "result": "failure", 
-    "stage": 7
-  }, 
-  {
-    "msg": "110, at position 1 of 5, is not prime", 
-    "input": 53, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'e'", 
-    "input": 55, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'e'", 
-    "input": 57, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 72, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "18, at position 1 of 4, is not prime", 
-    "input": 73, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'e'", 
-    "input": 75, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "18, at position 1 of 3, is not prime", 
-    "input": 77, 
-    "result": "failure", 
-    "stage": 6
   }, 
   {
     "msg": "112, at position 1 of 3, is not prime", 
-    "input": 222, 
+    "input": "222", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 3, is not prime", 
+    "input": "2222", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 223, 
+    "input": "22222", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "18, at position 1 of 5, is not prime", 
+    "input": "222222", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 3, is not prime", 
+    "input": "222223", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22223", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'y'", 
+    "input": "22225", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 225, 
+    "input": "22227", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "111, at position 1 of 4, is not prime", 
+    "input": "2223", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22233", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2225", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "111, at position 1 of 3, is not prime", 
+    "input": "2227", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "222B", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "222D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "223", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "2233", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "22333", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2235", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "16, at position 1 of 4, is not prime", 
+    "input": "2237", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "225", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2255", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "18, at position 1 of 3, is not prime", 
-    "input": 227, 
+    "input": "227", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 235, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 237, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 253, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 255, 
+    "input": "22B", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 257, 
+    "input": "22D", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "18, at position 1 of 3, is not prime", 
-    "input": 272, 
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "22H", 
     "result": "failure", 
     "stage": 6
   }, 
   {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 273, 
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "22J", 
     "result": "failure", 
-    "stage": 5
+    "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 275, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 277, 
+    "input": "22N", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 322, 
+    "input": "22T", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unexpected '3' in base-36 representation", 
+    "input": "23", 
+    "result": "failure", 
+    "stage": 7
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "233", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'n'", 
-    "input": 323, 
+    "input": "2333", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2335", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 325, 
+    "input": "235", 
     "result": "failure", 
     "stage": 5
   }, 
   {
     "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 327, 
+    "input": "237", 
+    "result": "failure", 
+    "stage": 5
+  }, 
+  {
+    "msg": "14, at position 4 of 5, is not prime", 
+    "input": "23B", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "23D", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 2 of 4, is not prime", 
+    "input": "23H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "23J", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unexpected '8' in base-36 representation", 
+    "input": "25", 
+    "result": "failure", 
+    "stage": 7
+  }, 
+  {
+    "msg": "unpaired last letter 'n'", 
+    "input": "255", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "257", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "8 - floor(tan(234)), at position 2 of 6, is negative", 
+    "input": "25B", 
     "result": "failure", 
     "stage": 5
   }, 
   {
     "msg": "unpaired last letter 'n'", 
-    "input": 332, 
+    "input": "27", 
     "result": "failure", 
     "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "277", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "16, at position 2 of 4, is not prime", 
+    "input": "2B", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unexpected '1' in base-36 representation", 
+    "input": "2D", 
+    "result": "failure", 
+    "stage": 7
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "2H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2J", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "2N", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unexpected '5' in base-36 representation", 
+    "input": "2T", 
+    "result": "failure", 
+    "stage": 7
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "2V", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "input": "33", 
+    "result": "success"
   }, 
   {
     "msg": "111, at position 2 of 3, is not prime", 
-    "input": 333, 
+    "input": "333", 
     "result": "failure", 
     "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 335, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "14, at position 1 of 4, is not prime", 
-    "input": 337, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 352, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 353, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 355, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 357, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 372, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "14, at position 1 of 4, is not prime", 
-    "input": 373, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 375, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 523, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 525, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 527, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "8 - floor(tan(234)), at position 1 of 2, is negative", 
-    "input": 532, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 533, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 535, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 537, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 552, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 553, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 572, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 573, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "18, at position 1 of 3, is not prime", 
-    "input": 722, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 723, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 725, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 727, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "8 - floor(tan(300)), at position 2 of 5, is negative", 
-    "input": 732, 
-    "result": "failure", 
-    "stage": 5
-  }, 
-  {
-    "msg": "14, at position 1 of 4, is not prime", 
-    "input": 733, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 735, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 752, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 753, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 772, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "18, at position 1 of 3, is not prime", 
-    "input": 2222, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 2223, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2225, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 2227, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 2232, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2235, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2237, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2253, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2255, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 2272, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2273, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 2322, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2325, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2327, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 2333, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2335, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2352, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2353, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2372, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2523, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2525, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2532, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2533, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 2552, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 2722, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2723, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2732, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 3222, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3225, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 3227, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3235, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3253, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 3272, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 3325, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'n'", 
-    "input": 3332, 
-    "result": "failure", 
-    "stage": 4
   }, 
   {
     "msg": "16, at position 3 of 4, is not prime", 
-    "input": 3333, 
+    "input": "3333", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 3352, 
+    "input": "335", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "14, at position 1 of 4, is not prime", 
+    "input": "337", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "33B", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 3522, 
+    "input": "33D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "110, at position 1 of 5, is not prime", 
+    "input": "35", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "355", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 3523, 
+    "input": "357", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "37", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'c'", 
+    "input": "3B", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 3532, 
+    "input": "3D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "18, at position 3 of 4, is not prime", 
+    "input": "3H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3J", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "3N", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "16, at position 1 of 4, is not prime", 
-    "input": 3722, 
+    "input": "3T", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 5222, 
+    "input": "3V", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5223, 
+    "msg": "unpaired last letter 'n'", 
+    "input": "5", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5225, 
+    "msg": "unpaired last letter 'e'", 
+    "input": "55", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5232, 
+    "msg": "unpaired last letter 'e'", 
+    "input": "57", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5252, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 5522, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 7222, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 7223, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 7232, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 7322, 
+    "msg": "14, at position 2 of 3, is not prime", 
+    "input": "5B", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 22222, 
+    "input": "5D", 
+    "result": "failure", 
+    "stage": 4
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "5H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "unpaired last letter 'm'", 
+    "input": "5J", 
     "result": "failure", 
     "stage": 4
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 22223, 
+    "input": "5N", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'y'", 
-    "input": 22225, 
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "7", 
     "result": "failure", 
-    "stage": 4
+    "stage": 6
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22227, 
+    "msg": "18, at position 1 of 3, is not prime", 
+    "input": "77", 
     "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22232, 
-    "result": "failure", 
-    "stage": 4
+    "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 22233, 
+    "input": "7B", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'y'", 
-    "input": 22252, 
+    "msg": "8 - floor(tan(300)), at position 2 of 6, is negative", 
+    "input": "7D", 
     "result": "failure", 
-    "stage": 4
+    "stage": 5
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22272, 
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "B", 
     "result": "failure", 
-    "stage": 4
+    "stage": 6
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22322, 
+    "msg": "18, at position 3 of 4, is not prime", 
+    "input": "D", 
     "result": "failure", 
-    "stage": 4
+    "stage": 6
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22323, 
+    "msg": "111, at position 1 of 4, is not prime", 
+    "input": "H", 
     "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22332, 
-    "result": "failure", 
-    "stage": 4
+    "stage": 6
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 22333, 
+    "input": "J", 
     "result": "failure", 
     "stage": 4
   }, 
   {
-    "msg": "unpaired last letter 'y'", 
-    "input": 22522, 
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "N", 
     "result": "failure", 
-    "stage": 4
+    "stage": 6
   }, 
   {
-    "msg": "unpaired last letter 'm'", 
-    "input": 22722, 
+    "msg": "8 - floor(tan(256)), at position 2 of 3, is negative", 
+    "input": "T", 
     "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23222, 
-    "result": "failure", 
-    "stage": 4
+    "stage": 5
   }, 
   {
     "msg": "unpaired last letter 'm'", 
-    "input": 23223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 23332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'y'", 
-    "input": 25222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 27222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32233, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32323, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 32332, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 33222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 33223, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 33232, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 33322, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'y'", 
-    "input": 52222, 
-    "result": "failure", 
-    "stage": 4
-  }, 
-  {
-    "msg": "unpaired last letter 'm'", 
-    "input": 72222, 
+    "input": "V", 
     "result": "failure", 
     "stage": 4
   }

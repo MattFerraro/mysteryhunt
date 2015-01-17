@@ -1,6 +1,5 @@
 import requests
 import json
-import os
 import re
 
 
@@ -46,7 +45,7 @@ def f2(input_str):
 
 
 def f3(input_str):
-    # The product of the digits is < 120
+    # The product of the digits is < 119
     product = 1
     for letter in input_str:
         if letter.isdigit():
@@ -55,51 +54,43 @@ def f3(input_str):
             val = ord(letter) - 55
         product *= val
 
-    return product < 120
+    return product < 119
 
 
-def main(results):
-    start_index = 0
-    if len(results) > 0:
-        last_result = results[-1]
-        start_index = last_result['input'] + 1
+def main(inputs):
+    results = []
+    for inp in inputs:
+        try:
+            r = requests.get(
+                'http://www.20000puzzles.com/dynamic/puzzle/pipe/query?input={}'
+                        .format(inp),
+                auth=('adphi', 'hunter2'))
+            output = r.json()['result']['output']
 
-    for i in range(start_index, start_index + 100000):
-        if f1(str(i)) and f2(str(i)) and f3(str(i)):
-            try:
-                r = requests.get(
-                    'http://www.20000puzzles.com/dynamic/puzzle/pipe/query?input={}'
-                            .format(i),
-                    auth=('adphi', 'hunter2'))
-                output = r.json()['result']['output']
+            if "Success" in output:
+                data = {
+                    "result": "success",
+                    "input": inp
+                }
+            else:
+                stage_index = output.index("Error in stage")
+                stage = output[stage_index + 15: stage_index + 16]
+                msg = str(output[stage_index + 18:])
 
-                if "Success" in output:
-                    data = {
-                        "result": "success",
-                        "input": i
-                    }
-                else:
-                    stage_index = output.index("Error in stage")
-                    stage = output[stage_index + 15: stage_index + 16]
-                    msg = str(output[stage_index + 18:])
+                data = {
+                    "result": "failure",
+                    "stage": int(str(stage)),
+                    "msg": msg,
+                    "input": inp
+                }
+            results.append(data)
+            print data
 
-                    data = {
-                        "result": "failure",
-                        "stage": int(str(stage)),
-                        "msg": msg,
-                        "input": i
-                    }
-                results.append(data)
-                print data
-
-            except KeyboardInterrupt:
-                break
+        except KeyboardInterrupt:
+            break
     return results
 
 if __name__ == '__main__':
-    if os.path.exists("results.json"):
-        # resume!
-        save_results(main(get_existing_results()))
-    else:
-        # start from scratch!
-        save_results(main([]))
+    with open("valid_inputs.txt", "r") as f:
+        inputs = f.read().split("\n")
+    save_results(main(inputs))

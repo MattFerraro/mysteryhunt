@@ -1,223 +1,199 @@
 [
   {
     "msg": "110, at position 1 of 3, is not prime", 
-    "input": 2, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "18, at position 1 of 4, is not prime", 
-    "input": 7, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "110, at position 1 of 5, is not prime", 
-    "input": 35, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "18, at position 1 of 4, is not prime", 
-    "input": 37, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "110, at position 1 of 5, is not prime", 
-    "input": 53, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "18, at position 1 of 4, is not prime", 
-    "input": 73, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "18, at position 1 of 3, is not prime", 
-    "input": 77, 
+    "input": "2", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "112, at position 1 of 3, is not prime", 
-    "input": 222, 
+    "input": "222", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "18, at position 1 of 3, is not prime", 
-    "input": 227, 
+    "input": "2222", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 5, is not prime", 
+    "input": "222222", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "18, at position 1 of 3, is not prime", 
-    "input": 272, 
+    "input": "222223", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "111, at position 1 of 4, is not prime", 
+    "input": "2223", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "111, at position 1 of 3, is not prime", 
+    "input": "2227", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "222B", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "16, at position 1 of 4, is not prime", 
+    "input": "2237", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 3, is not prime", 
+    "input": "227", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "22H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "22J", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "14, at position 4 of 5, is not prime", 
+    "input": "23B", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "23D", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 2 of 4, is not prime", 
+    "input": "23H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "16, at position 2 of 4, is not prime", 
+    "input": "2B", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "2H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "2V", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "111, at position 2 of 3, is not prime", 
-    "input": 333, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "14, at position 1 of 4, is not prime", 
-    "input": 337, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "14, at position 1 of 4, is not prime", 
-    "input": 373, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "18, at position 1 of 3, is not prime", 
-    "input": 722, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "14, at position 1 of 4, is not prime", 
-    "input": 733, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "18, at position 1 of 3, is not prime", 
-    "input": 2222, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 2223, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 2227, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 2232, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2237, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 2272, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2273, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 2322, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2327, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2372, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 2722, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2723, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 2732, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "111, at position 1 of 4, is not prime", 
-    "input": 3222, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 3227, 
-    "result": "failure", 
-    "stage": 6
-  }, 
-  {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 3272, 
+    "input": "333", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "16, at position 3 of 4, is not prime", 
-    "input": 3333, 
+    "input": "3333", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "14, at position 1 of 4, is not prime", 
+    "input": "337", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "110, at position 1 of 5, is not prime", 
+    "input": "35", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "37", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 3 of 4, is not prime", 
+    "input": "3H", 
     "result": "failure", 
     "stage": 6
   }, 
   {
     "msg": "16, at position 1 of 4, is not prime", 
-    "input": 3722, 
+    "input": "3T", 
     "result": "failure", 
     "stage": 6
   }, 
   {
-    "msg": "111, at position 1 of 3, is not prime", 
-    "input": 7222, 
+    "msg": "14, at position 2 of 3, is not prime", 
+    "input": "5B", 
     "result": "failure", 
     "stage": 6
   }, 
   {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 7223, 
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "5H", 
     "result": "failure", 
     "stage": 6
   }, 
   {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 7232, 
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "7", 
     "result": "failure", 
     "stage": 6
   }, 
   {
-    "msg": "16, at position 1 of 4, is not prime", 
-    "input": 7322, 
+    "msg": "18, at position 1 of 3, is not prime", 
+    "input": "77", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "110, at position 1 of 3, is not prime", 
+    "input": "B", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 3 of 4, is not prime", 
+    "input": "D", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "111, at position 1 of 4, is not prime", 
+    "input": "H", 
+    "result": "failure", 
+    "stage": 6
+  }, 
+  {
+    "msg": "18, at position 1 of 4, is not prime", 
+    "input": "N", 
     "result": "failure", 
     "stage": 6
   }

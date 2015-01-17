@@ -1,25 +1,25 @@
 [
   {
     "msg": "unexpected '3' in base-36 representation", 
-    "input": 23, 
+    "input": "23", 
     "result": "failure", 
     "stage": 7
   }, 
   {
     "msg": "unexpected '8' in base-36 representation", 
-    "input": 25, 
+    "input": "25", 
     "result": "failure", 
     "stage": 7
   }, 
   {
-    "msg": "unexpected '3' in base-36 representation", 
-    "input": 32, 
+    "msg": "unexpected '1' in base-36 representation", 
+    "input": "2D", 
     "result": "failure", 
     "stage": 7
   }, 
   {
-    "msg": "unexpected '8' in base-36 representation", 
-    "input": 52, 
+    "msg": "unexpected '5' in base-36 representation", 
+    "input": "2T", 
     "result": "failure", 
     "stage": 7
   }
