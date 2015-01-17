@@ -1,0 +1,26 @@
+[
+  {
+    "msg": "unexpected '3' in base-36 representation", 
+    "input": 23, 
+    "result": "failure", 
+    "stage": 7
+  }, 
+  {
+    "msg": "unexpected '8' in base-36 representation", 
+    "input": 25, 
+    "result": "failure", 
+    "stage": 7
+  }, 
+  {
+    "msg": "unexpected '3' in base-36 representation", 
+    "input": 32, 
+    "result": "failure", 
+    "stage": 7
+  }, 
+  {
+    "msg": "unexpected '8' in base-36 representation", 
+    "input": 52, 
+    "result": "failure", 
+    "stage": 7
+  }
+]

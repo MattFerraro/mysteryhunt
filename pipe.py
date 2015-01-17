@@ -10,8 +10,8 @@ def get_existing_results():
     return results
 
 
-def save_results(results):
-    with open("results.json", "w") as f:
+def save_results(results, outfile="results.json"):
+    with open(outfile, "w") as f:
         json.dump(results, f, indent=2)
 
 
@@ -51,7 +51,7 @@ def main(results):
         last_result = results[-1]
         start_index = last_result['input'] + 1
 
-    for i in range(start_index, start_index + 10000):
+    for i in range(start_index, start_index + 100000):
         if f1(str(i)) and f2(str(i)):
             try:
                 r = requests.get(
